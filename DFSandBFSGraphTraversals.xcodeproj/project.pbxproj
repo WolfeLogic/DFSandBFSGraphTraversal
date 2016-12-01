@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4DCE57C1DF0C7CC0095AD26 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DCE57B1DF0C7CC0095AD26 /* main.c */; };
+		D4DCE5871DF0C8A90095AD26 /* deque.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DCE5821DF0C8A90095AD26 /* deque.c */; };
+		D4DCE5881DF0C8A90095AD26 /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DCE5841DF0C8A90095AD26 /* graph.c */; };
+		D4DCE5891DF0C8A90095AD26 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DCE5861DF0C8A90095AD26 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		D4DCE5781DF0C7CC0095AD26 /* DFSandBFSGraphTraversals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFSandBFSGraphTraversals; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4DCE57B1DF0C7CC0095AD26 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D4DCE5821DF0C8A90095AD26 /* deque.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deque.c; sourceTree = "<group>"; };
+		D4DCE5831DF0C8A90095AD26 /* deque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
+		D4DCE5841DF0C8A90095AD26 /* graph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graph.c; sourceTree = "<group>"; };
+		D4DCE5851DF0C8A90095AD26 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		D4DCE5861DF0C8A90095AD26 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		D4DCE57A1DF0C7CC0095AD26 /* DFSandBFSGraphTraversals */ = {
 			isa = PBXGroup;
 			children = (
-				D4DCE57B1DF0C7CC0095AD26 /* main.c */,
+				D4DCE5821DF0C8A90095AD26 /* deque.c */,
+				D4DCE5831DF0C8A90095AD26 /* deque.h */,
+				D4DCE5841DF0C8A90095AD26 /* graph.c */,
+				D4DCE5851DF0C8A90095AD26 /* graph.h */,
+				D4DCE5861DF0C8A90095AD26 /* main.c */,
 			);
 			path = DFSandBFSGraphTraversals;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DCE57C1DF0C7CC0095AD26 /* main.c in Sources */,
+				D4DCE5881DF0C8A90095AD26 /* graph.c in Sources */,
+				D4DCE5871DF0C8A90095AD26 /* deque.c in Sources */,
+				D4DCE5891DF0C8A90095AD26 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
